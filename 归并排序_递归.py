@@ -5,6 +5,10 @@ Created on Tue Jun  4 20:02:23 2019
 @author: Administrator
 """
 
+'''
+Merge Sort | Recursion
+'''
+
 class Solution:
     def sortArray(self, nums: list) -> list:
         return self.merge_sort(nums)
