@@ -6,7 +6,7 @@ Created on Tue Jun  4 10:18:30 2019
 """
 
 '''
-Merge Sort, Non-Recursion
+Merge Sort | Non-Recursion
 '''
 
 class Solution:
