@@ -18,7 +18,7 @@ class Solution:
         q = mid + 1
         k = head
         temp = nums.copy()
-        while p<=mid and q<=tail:
+        while p <= mid and q <= tail:
             if temp[p] <= temp[q]:
                 nums[k] = temp[p]
                 p += 1
