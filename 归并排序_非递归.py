@@ -6,12 +6,14 @@ Created on Tue Jun  4 10:18:30 2019
 """
 
 '''
-Merge Sort | Non-Recursion
+Merge Sort | Non-Recursion | In-place
 '''
 
 class Solution:
     def sortArray(self, nums: list) -> list:
-        return self.merge_sort(nums)
+#         return self.merge_sort(nums)
+        self.merge_sort(nums)
+        return nums
 
     def merge(self, nums, head, mid, tail):
         p = head
@@ -42,7 +44,7 @@ class Solution:
                 self.merge(nums, head, mid, tail)
                 head += 2*m
             m *= 2
-        return nums
+#         return nums
 
 solu = Solution()
 nums = [5,2,3,1]
