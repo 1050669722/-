@@ -42,7 +42,8 @@ class Solution:
             nums[right] = nums[left]
         nums[left] = key
         return left
-        
+
+# test
 solu = Solution()
 nums = [3,7,6,4,1,9]
 solu.sortArray(nums)
