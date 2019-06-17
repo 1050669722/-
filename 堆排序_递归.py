@@ -38,6 +38,7 @@ class Solution:
             nums[0], nums[k] = nums[k], nums[0]
             self.adjust_heap(nums, k, 0)
 
+# test
 solu = Solution()
 nums = [3,7,6,4,1,9]
 print(solu.sortArray(nums))
