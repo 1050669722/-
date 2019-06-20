@@ -35,7 +35,8 @@ class Solution:
             left = self.merge_sort(nums[:n])
             right = self.merge_sort(nums[n:])
             return self.merge(left, right)
-        
+
+# test        
 solu = Solution()
 nums = [3,7,6,4,1,9]
 print(solu.merge_sort(nums))
