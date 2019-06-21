@@ -46,6 +46,7 @@ class Solution:
             m *= 2
 #         return nums
 
+# test
 solu = Solution()
 nums = [5,2,3,1]
 print(solu.merge_sort(nums))
