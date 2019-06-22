@@ -31,18 +31,7 @@ class Solution:
         self.quick_sort(nums, head, left-1)
         self.quick_sort(nums, left+1, tail)
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
+# test
 solu = Solution()
 nums = [3,7,6,4,1,9]
 print(solu.sortArray(nums))
