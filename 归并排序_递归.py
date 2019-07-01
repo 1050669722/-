@@ -40,3 +40,11 @@ class Solution:
 solu = Solution()
 nums = [3,7,6,4,1,9]
 print(solu.merge_sort(nums))
+
+
+
+
+
+
+
+
