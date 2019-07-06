@@ -50,3 +50,11 @@ class Solution:
 solu = Solution()
 nums = [5,2,3,1]
 print(solu.merge_sort(nums))
+
+
+
+
+
+
+
+
